@@ -1,7 +1,7 @@
-public class AdderTest {
-   public void testAdd() {
-     Adder adder = new Adder();
-     int result = adder.add(1,2);
-     assert(result==3);
+public class SubtractorTest {
+   public void testSubtract() {
+     Subtractor adder = new Subtractor();
+     int result = adder.subtract(2,1);
+     assert(result==1);
    }
 }
